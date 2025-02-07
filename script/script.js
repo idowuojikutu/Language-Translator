@@ -87,9 +87,9 @@ function translate() {
     });
 }
 inputTextElem.addEventListener("input", (e) => {
-  //limit input to 5000 characters
-  if (inputTextElem.value.length > 5000) {
-    inputTextElem.value = inputTextElem.value.slice(0, 5000);
+  //limit input to 10000 characters
+  if (inputTextElem.value.length > 10000) {
+    inputTextElem.value = inputTextElem.value.slice(0, 10000);
   }
   translate();
 });
